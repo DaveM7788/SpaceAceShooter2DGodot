@@ -1,8 +1,7 @@
-extends Projectile
-class_name PowerUp
+class_name PowerUp extends Projectile
 
 enum PowerUpType { Health, Shield }
-var speed := 60.0
+var speed := 100.0
 
 const TEXTURES: Dictionary = {
 	PowerUpType.Shield: preload("res://assets/misc/shield_gold.png"),
