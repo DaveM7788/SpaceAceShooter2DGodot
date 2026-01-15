@@ -6,4 +6,4 @@ func _unhandled_input(event: InputEvent) -> void:
 		#SignalHub.emit_on_create_exploision(Vector2(100, 100), Explosion.EXPLODE)
 		#SignalHub.emit_on_create_powerup(Vector2(100, 100), PowerUp.PowerUpType.Health)
 		#SignalHub.emit_on_create_random_powerup(Vector2(200, 200))
-		SignalHub.emit_on_create_bullet(Vector2(210, 210), Vector2(1, -1).normalized(), 30.0, BulletBase.BulletType.Bomb)
+		SignalHub.emit_on_create_bullet(Vector2(310, 210), Vector2(0, 1).normalized(), 40.0, BulletBase.BulletType.Bomb)
